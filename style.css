@@ -3,9 +3,6 @@ body{
     background-attachment:scroll;
     background-image: url("bg.jpg");
 }
-.container{
-    color: magenta;
-}
 h1{
     text-align: center;
 }
@@ -27,6 +24,24 @@ hr{
     border-radius: 25px;
 }
 .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    background-color: lightcoral;
+    display:block;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 25 px;
+}
+.b1:hover{
+    background-color: white;
+
+}
+.bcenter{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
