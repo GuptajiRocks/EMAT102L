@@ -6,19 +6,24 @@ body{
 h1{
     text-align: center;
 }
+p{
+    color:aqua;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .header1{
-    color: rgb(27, 114, 50);
+    color: purple;
     border-radius: 25px;
     display: flex;
     justify-content: center;
-    background-color: rgb(76, 186, 223);
+    background-color: yellow;
     margin-left: 500px;
     margin-right: 500px;
-    margin-top: 100px;
-    
+    margin-top: 50px;    
 }
 .header1:hover{
-    color: pink;
+    color: black;
 }
 hr{
     height: 10px;
@@ -30,41 +35,23 @@ hr{
     display: grid;
     justify-content: center;
 }
-.b1{
-    background-color: lightcoral;
-    display:block;
-    height: 50px;
-    width: 250px;
+.data1{
+    color:white;
+}
+.th1{
+    color:aqua;
+}
+th, td{
+    padding:20px;
+    border: solid 2px black;
+    border-collapse: collapse;
     font-size: 25px;
-    border-radius: 25px;
-    justify-content: center;
-    margin-left: 50px;
-    padding-bottom: 7px;
-}
-.b1:hover{
-    background-color: white;
-
-}
-.b2{
-    background-color: lightcoral;
-    display:block;
-    height: 50px;
-    width: 350px;
-    font-size: 25px;
-    border-radius: 50px;
-    justify-content: center;
-    padding-bottom: 7px;
-}
-.b2:hover{
-    background-color: white;
-}
-a:link{
-    color: blue;
-}
-a:visited{
-    color:blue;
 }
 a{
-    font-size: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:beige;
+}
+.billo{
+    border-spacing: 20px;
+    border: solid 2px black;
+    border-collapse: collapse;
 }
