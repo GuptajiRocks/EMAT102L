@@ -50,8 +50,23 @@ th, td{
 a{
     color:beige;
 }
+a:visited{
+    color:beige;
+}
 .billo{
     border-spacing: 20px;
     border: solid 2px black;
     border-collapse: collapse;
+}
+.b1{
+    background-color: lightcoral;
+    display:flex;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 25px;
+    justify-content: center;
+    margin-left: 2px;
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
